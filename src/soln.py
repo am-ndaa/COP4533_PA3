@@ -2,7 +2,7 @@ def highest_val_subseq(a,b,vals):
     len_a, len_b = len(a), len(b)
 
     dp = [[0] * (len_a + 1) for i in range(len_b + 1)]
-    print(dp)
+    # print(dp)
 
     
     #i -> b, j -> a
@@ -39,5 +39,5 @@ def highest_val_subseq(a,b,vals):
 
     return (dp[-1][-1], "".join(result[::-1]))
 
-
-print(highest_val_subseq("aacb", "caab", {'c':5, 'a':2, 'b':4}))
+# if mai
+# print(highest_val_subseq("aacb", "caab", {'c':5, 'a':2, 'b':4}))

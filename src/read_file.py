@@ -5,10 +5,10 @@ def read_file(filename):
     
     k = int(content[0])
     alphabet_dict = {}
-    for i in range(1, k+2, 2):
+    for i in range(1, 2 * k, 2):
         char, val = content[i], content[i+1]
         alphabet_dict[char] = int(val)
-    print(alphabet_dict)
+    # print(alphabet_dict)
     a, b = content[-2], content[-1]
     return (a, b, alphabet_dict)
 
