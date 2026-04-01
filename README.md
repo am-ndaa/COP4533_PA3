@@ -11,13 +11,13 @@ python main.py example.txt
 The input and output format are the same as specified in the assignment. 
 
 Input format:
-    K
-    x1 v1
-    x2 v2
-    ...
-    xK vK
-    A
-    B
+K
+x1 v1
+x2 v2
+...
+xK vK
+A
+B
 
 Output format:
  - maximum value
