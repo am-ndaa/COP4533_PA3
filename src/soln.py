@@ -13,7 +13,7 @@ def highest_val_subseq(a,b,vals):
                 dp[i][j] = dp[i-1][j-1] + vals[a[j-1]]
             else:
                 dp[i][j] = max(dp[i][j-1], dp[i-1][j])
-    print(dp[-1][-1])
+    # print(dp[-1][-1])
     # print(dp)
 
     j = len_a
@@ -37,7 +37,7 @@ def highest_val_subseq(a,b,vals):
                 j -=1
            
 
-    return "".join(result[::-1])
+    return (dp[-1][-1], "".join(result[::-1]))
 
 
 print(highest_val_subseq("aacb", "caab", {'c':5, 'a':2, 'b':4}))
