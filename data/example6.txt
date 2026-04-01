@@ -25,5 +25,5 @@ w 3
 x 12
 y 9
 z 1
-aacb
-caab
+aabbccddeeffgghhiijjkkllmmnnooppqqrr
+zzxxyywwvvuuttssrrqqppoonnmmllkkjjiihh
