@@ -25,8 +25,7 @@ Output format:
 
 ## Written component solutions:
 1. https://docs.google.com/spreadsheets/d/12evTsL2HUSE-vK1neiCaxGbkZwjOxgYu1LcRYTi50OA/edit?gid=0#gid=0
-
-2 and 3: [2 and 3 for PA3.pdf](https://github.com/user-attachments/files/26513037/2.and.3.for.PA3.pdf)
+2.  [Click here to download pdf](https://github.com/user-attachments/files/26513037/2.and.3.for.PA3.pdf)
 
 
 
